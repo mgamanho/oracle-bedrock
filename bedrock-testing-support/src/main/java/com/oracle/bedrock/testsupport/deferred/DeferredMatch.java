@@ -153,6 +153,7 @@ public class DeferredMatch<T> implements Deferred<Boolean>
         {
             throw e;
         }
+/*
         catch (RuntimeException e)
         {
             if (matcher instanceof ThrowableMatcher)
@@ -166,6 +167,7 @@ public class DeferredMatch<T> implements Deferred<Boolean>
                 throw e;
             }
         }
+*/
         catch (Exception e)
         {
             if (matcher instanceof ThrowableMatcher)
